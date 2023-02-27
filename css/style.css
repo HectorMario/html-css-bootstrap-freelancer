@@ -11,6 +11,10 @@ div.ms-green{
     background-color: #1ABC9C;
 }
 
+button.ms-green{
+    background-color: #1ABC9C;
+}
+
 .cielo{
     background-color: #3A546D;
 }
@@ -32,4 +36,12 @@ div hr{
     border-top: 3px solid;
     opacity: unset;
     border-radius: 10px;
+}
+
+div.ms-skills{
+    min-width: 355px;
+}
+
+div.ms-width{
+    width: 100%;
 }
