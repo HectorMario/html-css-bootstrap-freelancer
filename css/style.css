@@ -1,3 +1,8 @@
+
+img{
+    max-width: 100%;
+}
+
 header, .blue{
     background-color: #2C3E50;
 }
@@ -11,6 +16,20 @@ div.ms-green{
 }
 
 .img{
-    height: 200px;
+    
     width: 200px;
+}
+
+.ms-start{
+    width: 200px;
+}
+
+.fa-star:before{
+    font-size: 1.5rem;
+}
+
+div hr{
+    border-top: 3px solid;
+    opacity: unset;
+    border-radius: 10px;
 }
