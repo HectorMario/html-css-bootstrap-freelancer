@@ -3,6 +3,10 @@ img{
     max-width: 100%;
 }
 
+p{
+    margin: 0;
+}
+
 header, .blue{
     background-color: #2C3E50;
 }
@@ -44,4 +48,9 @@ div.ms-skills{
 
 div.ms-width{
     width: 100%;
+}
+
+li a.ms-width{
+    height: 40px;
+    width: 40px;
 }
