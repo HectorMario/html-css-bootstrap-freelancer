@@ -59,6 +59,14 @@ li a.ms-width{
     display: none;
 }
 
+button.ms-border-button{
+    border: 1px solid white;
+    color: aliceblue;
+    background-color: #1ABC9C;
+    border-radius: 5px;
+    padding: 6px 15px;
+}
+
 /* responsive */
 
 @media screen and (min-width: 768px) {
@@ -76,7 +84,5 @@ li a.ms-width{
 
     div.ms-display, button.ms-display{
         display: none;
-    }
-
-    
+    } 
 }
