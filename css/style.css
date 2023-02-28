@@ -54,3 +54,29 @@ li a.ms-width{
     height: 40px;
     width: 40px;
 }
+
+.ms-collapse{
+    display: none;
+}
+
+/* responsive */
+
+@media screen and (min-width: 768px) {
+    .ms-collapse{
+        display: flex;
+    }
+
+    .ms-nav{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        gap: 2rem;
+        margin: 0 0;
+    }
+
+    div.ms-display, button.ms-display{
+        display: none;
+    }
+
+    
+}
